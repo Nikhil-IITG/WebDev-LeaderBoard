@@ -103,7 +103,7 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
+    border-radius: 100%;
     background-color: #babefe;
     color: white;
 }
@@ -135,7 +135,7 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
+    border-radius: 100%;
     background-color: #babefe;
     color: white;
 }
@@ -183,8 +183,11 @@ body{
     font-size: 25px;
 }
 .rank{
+    display: flex;
+    justify-content: right;
+    width:50px;
     font-size: 25px;
-    margin-right: 32%;
+    margin-right: 30%;
 }
 .img{
     display: flex;
