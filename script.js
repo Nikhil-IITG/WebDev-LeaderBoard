@@ -32,7 +32,7 @@ fetch('https://www.coursehubiitg.in/api/codingweek/contributions')
             <div class="row">
                 <div class="phle2">
                     <div class="rank">${position}</div>
-                    <img class="img" src="${values.avatar}"/>
+                    <div class="img"><img class="image" src="${values.avatar}"/></div>
                 </div>
                 <div class="name">${values.name}</div>
                 <div class="score">${values.points}</div>
